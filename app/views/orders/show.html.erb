@@ -20,7 +20,6 @@
         </thead>
         <tbody>
           <% show.line_items.each do |item| %>
-            <%= puts show %>
             <%= render 'line_items', lineItem: item %>
           <% end %>
         </tbody>
