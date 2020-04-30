@@ -4,7 +4,7 @@
     <div class="alert alert-danger" role="alert" align="center">
       <%= 'Your Cart is Empty' %>
       </div>
-      <%= link_to 'Back to Home Page', :root %>
+      <%= link_to 'Back to Home Page', :root, class: 'btn btn btn-primary' %>
   <% end %>
 
   <% if enhanced_cart.present? %>
