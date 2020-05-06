@@ -6,5 +6,4 @@ class Admin::DashboardController < ApplicationController
     @products = Product.all
   end
   helper_method :show
-
 end
